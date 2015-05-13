@@ -9,12 +9,6 @@ object QuickSort extends App {
 
   import system.dispatcher
 
-  trait SortMessage
-
-  case class Sort(list: List[Int]) extends SortMessage
-
-  case class Result(sorted: List[Int]) extends SortMessage
-
   val system = ActorSystem("SortSystem")
   val controller = system.actorOf(Props[Controller], name = "controller")
 

@@ -6,6 +6,8 @@ scalaVersion := "2.11.5"
 
 scalacOptions ++= Seq("-deprecation", "-feature")
 
+resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
+
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.3" % "test"
 
 libraryDependencies += "junit" % "junit" % "4.12" % "test"

@@ -7,8 +7,6 @@ import scala.concurrent.duration._
 
 object QuickSort extends App {
 
-  import system.dispatcher
-
   val system = ActorSystem("SortSystem")
   val controller = system.actorOf(Props[Controller], name = "controller")
 

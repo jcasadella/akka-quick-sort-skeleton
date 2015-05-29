@@ -1,4 +1,4 @@
-name := "akka-quick-sort"
+name := "akka-quick-sort-skeleton"
 
 version := "0.0.1-SNAPSHOT"
 
